@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# SQL Functions
 
-You can use the [editor on GitHub](https://github.com/YoungkN45/DBFoundations-Module07/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Introduction
+This paper will cover the uses of user-defined functions in SQL and the differences between scalar, inline, and multi-statement functions.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## User-Defined Functions
+There are many built-in functions in SQL that users can use when writing queries. SQL also allows users to create and store their own functions in a database. Functions return database objects and can take parameters. UDFs can be used in queries to transform data or check constraints. Being able to take parameters means functions are not limited to being called with a SELECT statement like views. Functions can be used within SELECT statements, views, and even other functions to transform data.
 
-### Markdown
+## Scalar, Inline, and Multi-Statement Functions
+A function that returns a single value instead of a table is a scalar function. The most simplistic of functions require only a single statement to return the desired object. These are known as inline functions. More complex functions that require multiple statements to return an object are known as multi-statement functions.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/YoungkN45/DBFoundations-Module07/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Conclusion
+This paper described how users can create functions to transform data. Scalar, inline, and multi-statement functions were also defined.
